@@ -1,0 +1,418 @@
+{
+  "English NER (BERT)": {
+    "overall_metrics": {
+      "precision": 0.8834669851561167,
+      "recall": 0.9167847025495751,
+      "f1": 0.8998175341037449,
+      "accuracy": 0.9714785458785711
+    },
+    "token_level_metrics": {
+      "accuracy": 0.9714785458785711,
+      "precision_macro": 0.8854062534243075,
+      "recall_macro": 0.9058377614629511,
+      "f1_macro": 0.8952815749489127,
+      "precision_weighted": 0.9725589817172441,
+      "recall_weighted": 0.9714785458785711,
+      "f1_weighted": 0.9719217398420564
+    },
+    "per_class_metrics": {
+      "O": {
+        "precision": 0.994045865768988,
+        "recall": 0.9858528951486698,
+        "f1": 0.9899324288931958,
+        "support": 47925
+      },
+      "B-PER": {
+        "precision": 0.9652389819987586,
+        "recall": 0.9616573902288188,
+        "f1": 0.9634448574969021,
+        "support": 1617
+      },
+      "I-PER": {
+        "precision": 0.9729197439684885,
+        "recall": 0.9681528662420382,
+        "f1": 0.9705304518664047,
+        "support": 4082
+      },
+      "B-ORG": {
+        "precision": 0.901111761263897,
+        "recall": 0.9271523178807947,
+        "f1": 0.913946587537092,
+        "support": 1661
+      },
+      "I-ORG": {
+        "precision": 0.888235294117647,
+        "recall": 0.9520807061790668,
+        "f1": 0.9190505173463177,
+        "support": 3172
+      },
+      "B-LOC": {
+        "precision": 0.9337313432835821,
+        "recall": 0.9376498800959233,
+        "f1": 0.9356865091235417,
+        "support": 1668
+      },
+      "I-LOC": {
+        "precision": 0.8988700564971751,
+        "recall": 0.9101830663615561,
+        "f1": 0.9044911881750994,
+        "support": 1748
+      },
+      "B-MISC": {
+        "precision": 0.8070652173913043,
+        "recall": 0.8461538461538461,
+        "f1": 0.8261474269819193,
+        "support": 702
+      },
+      "I-MISC": {
+        "precision": 0.6074380165289256,
+        "recall": 0.6636568848758465,
+        "f1": 0.6343042071197411,
+        "support": 886
+      }
+    }
+  },
+  "Hindi Chunking (DistilBERT)": {
+    "overall_metrics": {
+      "precision": 7.273044641948012e-05,
+      "recall": 0.00025401341190814874,
+      "f1": 0.00011308251631215298,
+      "accuracy": 0.0036610551348645096
+    },
+    "token_level_metrics": {
+      "accuracy": 0.0036610551348645096,
+      "precision_macro": 0.007911892673345395,
+      "recall_macro": 0.0035300178095704396,
+      "f1_macro": 0.0011930094657283772,
+      "precision_weighted": 0.051037640584803555,
+      "recall_weighted": 0.0036610551348645096,
+      "f1_weighted": 0.0061599114752392695
+    },
+    "per_class_metrics": {
+      "BLK": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1678
+      },
+      "BLK2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5
+      },
+      "BLK3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1866
+      },
+      "CCP": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 499
+      },
+      "CCP2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 129
+      },
+      "CCP3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 32
+      },
+      "CCP4": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "CCP5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      "CCP6": {
+        "precision": 0.0008036431824270024,
+        "recall": 0.03571428571428571,
+        "f1": 0.0015719151165837044,
+        "support": 84
+      },
+      "CCP7": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "CCP8": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2343
+      },
+      "CCP9": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 558
+      },
+      "FRAGP": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 114
+      },
+      "FRAGP2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      },
+      "JJP": {
+        "precision": 4.504808883483118e-05,
+        "recall": 0.11764705882352941,
+        "f1": 9.006169225919755e-05,
+        "support": 17
+      },
+      "JJP2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "JJP3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11281
+      },
+      "JJP4": {
+        "precision": 0.015864621893178214,
+        "recall": 0.02050580997949419,
+        "f1": 0.017889087656529516,
+        "support": 1463
+      },
+      "JJP5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1011
+      },
+      "JJP6": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 681
+      },
+      "NEGP": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 509
+      },
+      "NP": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 355
+      },
+      "NP10": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 172
+      },
+      "NP11": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 111
+      },
+      "NP12": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 61
+      },
+      "NP13": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 47
+      },
+      "NP14": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "NP15": {
+        "precision": 0.11507936507936507,
+        "recall": 0.0025300994590821847,
+        "f1": 0.004951340276592112,
+        "support": 11462
+      },
+      "NP16": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 16
+      },
+      "NP17": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "NP18": {
+        "precision": 0.13682564503518374,
+        "recall": 0.01577002793547806,
+        "f1": 0.02828054298642534,
+        "support": 11097
+      },
+      "NP19": {
+        "precision": 0.10921501706484642,
+        "recall": 0.006698764915218757,
+        "f1": 0.0126232741617357,
+        "support": 9554
+      },
+      "NP2": {
+        "precision": 0.056338028169014086,
+        "recall": 0.0010281454825857858,
+        "f1": 0.002019437081913417,
+        "support": 7781
+      },
+      "NP20": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5736
+      },
+      "NP21": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4388
+      },
+      "NP22": {
+        "precision": 0.028112449799196786,
+        "recall": 0.0021199273167777106,
+        "f1": 0.003942551393973529,
+        "support": 3302
+      },
+      "NP23": {
+        "precision": 0.1111111111111111,
+        "recall": 0.00045558086560364467,
+        "f1": 0.0009074410163339383,
+        "support": 2195
+      },
+      "NP24": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 490
+      },
+      "NP25": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 18
+      },
+      "NP26": {
+        "precision": 0.02766798418972332,
+        "recall": 0.002039329934450109,
+        "f1": 0.003798670465337132,
+        "support": 6865
+      },
+      "NP27": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3268
+      },
+      "NP28": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 807
+      },
+      "NP29": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 137
+      },
+      "NP3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 20
+      },
+      "NP30": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "NP31": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "NP32": {
+        "precision": 0.022304832713754646,
+        "recall": 0.011204481792717087,
+        "f1": 0.014916096954630205,
+        "support": 1071
+      },
+      "NP33": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 115
+      },
+      "NP34": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      "NP35": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3588
+      },
+      "NP36": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 764
+      },
+      "NP37": {
+        "precision": 0.0016717748676511562,
+        "recall": 0.06315789473684211,
+        "f1": 0.003257328990228013,
+        "support": 95
+      },
+      "NP38": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 20
+      },
+      "NP39": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Large model directories
+lab2/bert-finetuned-ner-accelerate/
+lab2/bert-hindi-finetuned/
+
+# Model files
+*.safetensors
+
+# Other excludes
+.DS_Store
+__pycache__/
+*.pyc

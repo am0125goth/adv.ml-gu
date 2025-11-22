@@ -1,0 +1,3 @@
+Model,Overall mAP,Verb mAP,Object mAP,Action mAP,Verb F1 (macro),Object F1 (macro),Action F1 (macro),Verb F1 (micro),Object F1 (micro),Action F1 (micro),Verb Precision,Object Precision,Action Precision,Verb Recall,Object Recall,Action Recall,Verb Hamming Loss,Object Hamming Loss,Action Hamming Loss,Total Loss
+from_scratch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0.9179633259773254
+pretrained_finetune,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0.8430374264717102

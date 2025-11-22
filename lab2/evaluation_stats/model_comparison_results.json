@@ -1,0 +1,27 @@
+{
+  "timestamp": "20251118_140526",
+  "models": {
+    "from_scratch": {
+      "test_total_loss": 0.9179633259773254,
+      "test_verb_loss": 0.36978206038475037,
+      "test_object_loss": 0.3472766876220703,
+      "test_action_loss": 0.2009045034646988,
+      "test_verb_acc": 0.8438303470611572,
+      "test_object_acc": 0.872717559337616,
+      "test_action_acc": 0.9435168504714966
+    },
+    "pretrained_finetune": {
+      "test_total_loss": 0.8430374264717102,
+      "test_verb_loss": 0.3338962495326996,
+      "test_object_loss": 0.32172417640686035,
+      "test_action_loss": 0.1874171644449234,
+      "test_verb_acc": 0.8684697151184082,
+      "test_object_acc": 0.8834022283554077,
+      "test_action_acc": 0.944857656955719
+    }
+  },
+  "summary": {
+    "num_models": 2,
+    "best_model": "from_scratch"
+  }
+}
